@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Navigation */
+.nav {
+    background-color: lightpink;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.promo-banner {
+    background-image: url(promo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.article-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.article {
+    text-align: justify;
+    background: #ffe5e9;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.article h2 {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.article h2, .article a {
+    color: deeppink;
+}
+
+/* Shop Now Button */
+.promo-button {
+    padding: 10px 20px;
+    background-color: #ff6363;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.promo-button:hover {
+    background-color: #ff3b3b;
+}
+
+.promo-button:active {
+    background-color: #ff0a0a;
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+/* Footer */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer-left img {
+    max-width: 150px;
+}
+
+.footer-right p {
+    text-align: right;
+    color: #666;
+}

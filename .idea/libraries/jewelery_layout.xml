@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jewelery-layout">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jewelery-layout.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
