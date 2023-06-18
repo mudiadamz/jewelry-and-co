@@ -54,7 +54,7 @@ a{
 }
 
 .promo-banner {
-    background-image: url(promo.jpg);
+    background-image: url(../img/promo.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #f2f2f2;
